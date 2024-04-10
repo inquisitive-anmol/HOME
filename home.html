@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Banner Example</title>
+    <script
+      src="https://kit.fontawesome.com/570e6a7904.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="home-container">
+        <p class="banner" id="banner">"Welcome to Shoocart.in"</p>
+
+        <div class="image-container">
+          <img src="banner1.png" id="slider" alt="Slider Image" />
+
+          <div id="change-image-btn-right" class="image-btn-right">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+
+          <div id="change-image-btn-left" class="image-btn-left">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-info">
+        <div class="hero-info-1">
+          <div class="free-shipping hero-info-card">
+            <img src="./freeshipping.png" alt="" class="hero-info-img ship" />
+            <h4 class="d-hero-info-head">Free Shipping</h4>
+            <p class="d-hero-info-para">free shipping on all orders over $50</p>
+          </div>
+
+          <div class="easy-return hero-info-card">
+            <img src="./easyreturn.png" alt="" class="hero-info-img return" />
+            <h4 class="d-hero-info-head">Return & Exchange</h4>
+            <p class="d-hero-info-para">
+              Enjoy hassle-free returns & exchanges within 30 days
+            </p>
+          </div>
+        </div>
+        <div class="hero-info-2">
+          <div class="secure-payment hero-info-card">
+            <img src="./securepayment.png" alt="" class="hero-info-img" />
+            <h4 class="d-hero-info-head">Secure Payment</h4>
+            <p class="d-hero-info-para">
+              ensuring your transactions are safe & your info is protected
+            </p>
+          </div>
+
+          <div class="customer-support hero-info-card">
+            <img src="./customersupport.png" alt="" class="hero-info-img" />
+            <h4 class="d-hero-info-head">Customer Support</h4>
+            <p class="d-hero-info-para">
+              Customer Support always here to help.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- product  -->
+
+      <div class="product-section">
+
+        <!-- men section -->
+        <div class="men-section">
+          <div class="men-section-img">
+            <img
+              src="./men.jpg"
+              alt=""
+              srcset=""
+              class="men-section-img-dimm"
+            />
+          </div>
+          <div class="men-section-content">
+            <div class="men-section-title">Mens collection</div>
+            <div class="men-section-product">
+              <div class="men-section-product-1 men-section-product-card">
+                <img
+                  src="men1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-1-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-1-title men-section-product-title"
+                >Shoes 1</h4>
+                <p
+                  class="men-section-product-1-price men-section-product-price"
+                >123</p>
+                <p
+                  class="men-section-product-1-discountprice men-section-product-discountprice"
+                >123</p>
+                <div
+                  class="men-section-product-1-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  (10)
+                </div>
+              </div>
+
+              <div class="men-section-product-2 men-section-product-card">
+                <img
+                  src="./men2.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-2-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-2-title men-section-product-title"
+                >shoe2</h4>
+                <p
+                  class="men-section-product-2-price men-section-product-price"
+                >1234</p>
+                <p
+                  class="men-section-product-2-discountprice men-section-product-discountprice"
+                >1354</p>
+                <div
+                  class="men-section-product-2-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+
+              <div class="men-section-product-3 men-section-product-card">
+                <img
+                  src="./men2.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-3-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-3-title men-section-product-title"
+                >shoe3</h4>
+                <p
+                  class="men-section-product-3-price men-section-product-price"
+                >452</p>
+                <p
+                  class="men-section-product-3-discountprice men-section-product-discountprice"
+                >562</p>
+                <div
+                  class="men-section-product-3-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+              <div class="men-section-product-4 men-section-product-card">
+                <img
+                  src="./men1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-4-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-4-title men-section-product-title"
+                >shoe4</h4>
+                <p
+                  class="men-section-product-4-price men-section-product-price"
+                >568</p>
+                <p
+                  class="men-section-product-4-discountprice men-section-product-discountprice"
+                >856</p>
+                <div
+                  class="men-section-product-4-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- women section -->
+        <div class="men-section">
+          <div class="men-section-img">
+            <img
+              src="./women1.jpg"
+              alt=""
+              srcset=""
+              class="men-section-img-dimm"
+            />
+          </div>
+          <div class="men-section-content">
+            <div class="men-section-title"><b>women collection</b></div>
+            <div class="men-section-product">
+              <div class="men-section-product-1 men-section-product-card">
+                <img
+                  src="./women2.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-1-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-1-title men-section-product-title"
+                >shoe1</h4>
+                <p
+                  class="men-section-product-1-price men-section-product-price"
+                >5522</p>
+                <p
+                  class="men-section-product-1-discountprice men-section-product-discountprice"
+                >2563</p>
+                <div
+                  class="men-section-product-1-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+
+              <div class="men-section-product-2 men-section-product-card">
+                <img
+                  src="women1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-2-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-2-title men-section-product-title"
+                >shoe 3</h4>
+                <p
+                  class="men-section-product-2-price men-section-product-price"
+                >8569</p>
+                <p
+                  class="men-section-product-2-discountprice men-section-product-discountprice"
+                >236</p>
+                <div
+                  class="men-section-product-2-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+
+              <div class="men-section-product-3 men-section-product-card">
+                <img
+                  src="./women1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-3-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-3-title men-section-product-title"
+                >shoe4</h4>
+                <p
+                  class="men-section-product-3-price men-section-product-price"
+                >562</p>
+                <p
+                  class="men-section-product-3-discountprice men-section-product-discountprice"
+                >86596</p>
+                <div
+                  class="men-section-product-3-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+              <div class="men-section-product-4 men-section-product-card">
+                <img
+                  src="women2.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-4-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-4-title men-section-product-title"
+                >shoe3</h4>
+                <p
+                  class="men-section-product-4-price men-section-product-price"
+                >5601</p>
+                <p
+                  class="men-section-product-4-discountprice men-section-product-discountprice"
+                >5623</p>
+                <div
+                  class="men-section-product-4-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <!-- sneakers section -->
+        <div class="men-section">
+          <div class="men-section-img">
+            <img
+              src="./sneaker.jpg"
+              alt=""
+              srcset=""
+              class="men-section-img-dimm"
+            />
+          </div>
+          <div class="men-section-content">
+            <div class="men-section-title">sneakers collection</div>
+            <div class="men-section-product">
+              <div class="men-section-product-1 men-section-product-card">
+                <img
+                  src="./sneaker1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-1-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-1-title men-section-product-title"
+                >shoe5</h4>
+                <p
+                  class="men-section-product-1-price men-section-product-price"
+                >623</p>
+                <p
+                  class="men-section-product-1-discountprice men-section-product-discountprice"
+                >236</p>
+                <div
+                  class="men-section-product-1-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+
+              <div class="men-section-product-2 men-section-product-card">
+                <img
+                  src="./sneaker1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-2-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-2-title men-section-product-title"
+                >shoe8</h4>
+                <p
+                  class="men-section-product-2-price men-section-product-price"
+                >5623</p>
+                <p
+                  class="men-section-product-2-discountprice men-section-product-discountprice"
+                >5695</p>
+                <div
+                  class="men-section-product-2-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+
+              <div class="men-section-product-3 men-section-product-card">
+                <img
+                  src="./sneaker.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-3-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-3-title men-section-product-title"
+                >shoe1</h4>
+                <p
+                  class="men-section-product-3-price men-section-product-price"
+                >555</p>
+                <p
+                  class="men-section-product-3-discountprice men-section-product-discountprice"
+                >235</p>
+                <div
+                  class="men-section-product-3-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+              <div class="men-section-product-4 men-section-product-card">
+                <img
+                  src="./sneaker1.jpg"
+                  alt=""
+                  srcset=""
+                  class="men-section-product-4-img men-section-product-img"
+                />
+                <h4
+                  class="men-section-product-4-title men-section-product-title"
+                >shoe4</h4>
+                <p
+                  class="men-section-product-4-price men-section-product-price"
+                >569</p>
+                <p
+                  class="men-section-product-4-discountprice men-section-product-discountprice"
+                >2356</p>
+                <div
+                  class="men-section-product-4-rating men-section-product-rating"
+                >
+                  <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
